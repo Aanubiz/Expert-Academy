@@ -15,21 +15,21 @@ const services: Service[] = [
     id: '1',
     title: 'Masterclass Next.js 15',
     description: 'Apprenez à bâtir des applications SaaS modernes de A à Z.',
-    price: '49.99 €',
+    price: '49.99 $',
     type: 'course'
   },
   {
     id: '2',
     title: 'API Météo Premium',
     description: 'Accès illimité à nos données météo haute précision.',
-    price: '19.99 € / mois',
+    price: '19.99 $ / mois',
     type: 'api'
   },
   {
     id: '3',
     title: 'Formation Python Débutant',
     description: 'Les bases de la programmation avec le langage le plus populaire.',
-    price: '29.99 €',
+    price: '29.99 $',
     type: 'course'
   }
 ];
@@ -38,7 +38,7 @@ export default function TechStore() {
   return (
     <div className="min-h-screen bg-slate-50">
       {/* Hero Section */}
-      <header className="py-16 px-4 text-center bg-white border-b">
+      <header className="py-16 px-4 text-center bg-white">
         <h1 className="text-4xl font-extrabold text-slate-900 sm:text-6xl">
           Expert <span className="text-blue-600">Academy</span>
         </h1>
@@ -79,10 +79,6 @@ export default function TechStore() {
         </div>
       </section>
 
-      {/* Footer minimaliste */}
-      <footer className="py-8 text-center text-slate-400 text-sm">
-        <p>&copy; 2025 TechDev Services. Code minimal pour démarrage rapide.</p>
-      </footer>
     </div>
   );
 }

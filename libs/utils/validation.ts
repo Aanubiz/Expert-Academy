@@ -1,0 +1,1 @@
+//Règles de validation pour formulaires (email, mot de passe).

@@ -1,0 +1,1 @@
+//Hook personnalisé qui gère l'état du panier (ajout/suppression/calcul...)
